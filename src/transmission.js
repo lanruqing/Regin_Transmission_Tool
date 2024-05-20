@@ -1,9 +1,4 @@
-// import { Transmission } from '@ctrl/transmission';
-import  Transmission from 'transmission'// export const TransmissionClient = new Transmission({
-//   baseUrl: 'http://guohe2023.asuscomm.com:49092',
-//   username: "qnap",
-//   password: 'qnap',
-// });
+import  Transmission from 'transmission'
 export const TransmissionClient = new Transmission({
     host: '192.168.50.109',
     port:49092,
